@@ -13,6 +13,7 @@ MoSCoW requirements:
 - COULD HAVE -
 - A search function to search for a particular information
 - Save information to read later
+- Bookmark particular text so user will know where he ended up reading
 
 - WON'T HAVE -
 - A registration
