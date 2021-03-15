@@ -4,18 +4,25 @@ The reason for making this app is because the story of Death Stranding is quite 
 MoSCoW requirements:
 
 - MUST HAVE 
-Categories by which user can learn information about the story, charactes, equipment etc.
-A navigation for quick search for a desired topic
+- Categories by which user can learn information about the story, charactes, equipment etc.
+- A navigation for quick search for a desired topic
 
 - SHOULD HAVE 
- Sharing a particular information with an friend on social medias
+-  Sharing a particular information with an friend on social medias
+
 
 - COULD HAVE 
-A search function to search for a particular information
-Save information to read later
-Bookmark particular text so user will know where he ended up reading
+- A search function to search for a particular information
+- Save information to read later
+- Bookmark particular text so user will know where he ended up reading
+
+
 
 - WON'T HAVE -
-A registration
-A login
-A database
+- A registration
+- A login
+- A database
+
+
+
+
