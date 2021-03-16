@@ -18,7 +18,7 @@ MoSCoW requirements:
 - WON'T HAVE 
 - - A registration
 - - A login
-- - A database
+
 
 
 
