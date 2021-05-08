@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">DS Wiki</string>
+    <string name="world">World</string>
+    <string name="characters">Characters</string>
+    <string name="tools">Game tools</string>
+    <string name="quotes">Quotes</string>
+    <string name="episodes">Episodes</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="about">About</string>
+    <string name="about_sam">Samuel "Sam" Porter Bridges is a legendary porter and member of Bridges who plays an integral role in expanding the Chiral Network and making the United Cities of America whole by embarking on a westward expedition.</string>
+    <string name="about_fragile">Fragile\'s father was the founder of Fragile Express, and when he died, the torch was passed down to her. She and her company eventually merged with Higgs Monaghan\'s delivery company, drawn to his vision of the future.\n\n
+Early on, they were highly successful in delivering supplies to those in the most remote of areas, but all too quickly it was discovered that Higgs was a terrorist leading the Homo Demens. They had gone from delivering food and medicine for communities to smuggling guns and bombs for terrorist cells. Fragile was tricked into bringing a nuclear bomb into Middle Knot City, resulting in the deaths of everyone there. Fragile discovered that Higgs was delivering another nuke to South Knot City and managed to steal it away from them, only to be caught by the terrorists. Fragile was stripped down to her underwear and given a choice by Higgs: save the city by running through timefall (which he had summoned) and throwing the bomb into a tar pit, or warping out of the area and saving herself, at the cost of all those who lived there. Fragile chose to save those in the city, and Higgs gave her a hood so that her face would be protected, wanting for her face to be a testament to those who crossed him (and for it to be remembered as belonging to the person who nuked Middle Knot City). Because of this, the rest of Fragile\'s body deteriorated as the price for South Knot\'s continued survival.\n\n
+Fragile meets Sam while hiding in a cave to avoid the timefall, helping him evade BTs by telling him to hold his breath when around them. After the BTs leave, she and Sam shed tears as they watch the Extinction entities survey from the sky momentarily before vanishing. She offers Sam a job working for her, noting how difficult it is for a lone deliveryman to operate in the world, but Sam declines, preferring his solitude. Afterward, she warns Sam to be mindful of the BTs\' return and remarks that timefall cannot wash everything away – the ever-clinging past in particular – before departing.
+</string>
+    <string name="background">Background</string>
+    <string name="background_sam1">Sam was born on November 9, to Clifford Unger and Lisa Bridges. In an effort to save his unborn son after Lisa was rendered brain dead in an accident, Cliff willingly placed Sam under the care of Bridges scientists conducting bridge baby experiments, but did so unaware of their true intentions: to use Sam as a sacrificial foundation for a new communications network as the first proper bridge baby. Upon learning of such from an old comrade and friend, Cliff attempted to abduct Sam from a Bridges facility, but was gunned down in the process, resulting in his and Sam\'s deaths. On the Beach, Sam was healed and brought back to life by Amelie, who bestowed to him the ability of repatriation. No longer viable as a bridge baby by virtue of being a repatriate, he was taken into Bridget\'s care and raised as her son, Sam Strand. However, his revival upset the balance of life and death, triggering the Death Stranding.\n\n In his youth, as a sufferer of DOOMS, Sam had severe nightmares and would find himself stranded on the Beach unable to find his way out. Always there for him in such moments, Amelie would arrive to calm Sam and help him make his way out of the Beach. Sam fashioned a quipu for Amelie in the world of the living, and was able to bring it with him to the Beach, where he gifted it to Amelie as a representation of their bond. \n\n At some point, Sam joined Bridges, and due to his DOOMS and ability of repatriation would become an essential member of the core team as the organization\'s mandate expanded. He met a psychotherapist named Lucy, who tried to help him overcome his aphenphosmphobia. The two fell in love, married, and eventually conceived a child, a daughter whom they intended to name Louise. After being subjected to the nightmares of DOOMS sufferers as the bearer of Sam\'s child, Lucy committed suicide which took their unborn daughter with her. Her death caused a voidout in the satellite town of UCA–01–0C, leaving Sam, a repatriate, as the sole survivor in the area and the primary suspect of the incident. Due to public pressure and guilt, he left Bridges and became a freelance porter, isolating himself from society and cutting himself off from the living. His former co-workers suspected that his resignation was Sam\'s own way of taking responsibility for the incident.</string>
+    <string name="background_fragile">Fragile is controlled and intelligent, as shown when she tells Sam to be quiet while under threat from BTs, clearly knowing how to effectively deal with them in a calm fashion. She also remains at ease when she is captured by the Homo Demens, despite being held at gunpoint.\n\n
+She appears to have a fond taste for cryptobiotes, even commenting to Sam, that much like a proverbial apple; "A cryptobiote a day, keeps the timefall away." Due to Fragile\'s past circumstances and her ability as a "jumper," she must maintain a steady diet of cryptobiotes to stabilize her aged body. Despite all the suffering she has experienced she maintains a friendly and positive personality, thus demonstrating great strength.\n\n
+
+Fragile is a white young woman in her late 20s or early 30s with blonde hair and blue eyes. Most of her body is aged due to the timefall with which Higgs tortured her. This has probably lowered her life expectancy and health.
+\n\n
+She uses a black jacket that looks like leather and has the name of her company in the sleeves and a big logo in the back. Also has a blue line detail in the front with the company name. This jacket has the function of detecting high chiralium concentrations. When this happens spikes pop outs on the shoulders. Her hands are always covered with black gloves.
+\n\n
+Her pants are also black with a blue line on the sides and her boots are black too. These clothes also have the appearance of being made of leather. Besides all this Fragile always carries an "umbrella" which is actually a navigation device to guide her travels through the beaches.\n\n
+Fragile possesses DOOMS with an extinction factor that is higher than Sam\'s, allowing her to see BTs. Fragile\'s DOOMS allows her to teleport to other locations in the world by moving through her Beach and reappearing in the material world. Doing so causes fatigue, so she uses this ability cautiously. She later helps Sam travel to Edge Knot City by sending him through her Beach to locations with high Chiralium density connected to the Chiral Network.
+</string>
+    <string name="name">Name:</string>
+    <string name="gender">Gender:</string>
+    <string name="gender_male">male</string>
+    <string name="gender_female">female</string>
+    <string name="hair_color">Hair color:</string>
+    <string name="eye_color">Eye color:</string>
+    <string name="cast">Cast:</string>
+    <string name="status">Status:</string>
+    <string name="status_alive">alive</string>
+    <string name="name_sam">Sam</string>
+
+    <string name="color_blue">blue</string>
+    <string name="color_brown">brown</string>
+    <string name="color_blonde">blonde</string>
+
+
+    <string name="cast_norman">Norman Reedus</string>
+    <string name="cast_fragile">Léa Seydoux</string>
+</resources>
