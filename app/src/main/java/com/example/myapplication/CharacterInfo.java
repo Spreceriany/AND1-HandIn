@@ -121,8 +121,30 @@ public class CharacterInfo extends AppCompatActivity {
                 Bundle bundle = getIntent().getExtras();
                 String name = bundle.getString("name");
 
-                if (name.equals("Fragile")){
-                    fragileShare();
+                switch (name) {
+                    case "Fragile":
+                        characterShare(getResources().getString(R.string.background_fragile), getResources().getString(R.string.name_fragile));
+                        break;
+                    case "Sam":
+                        characterShare(getResources().getString(R.string.background_sam1), getResources().getString(R.string.name_sam));
+                        break;
+                    case "Deadman":
+                        characterShare(getResources().getString(R.string.background_deadman), getResources().getString(R.string.name_deadman));
+                        break;
+                    case "Mama":
+                        characterShare(getResources().getString(R.string.background_mama), getResources().getString(R.string.name_mama));
+                    case "Higgs":
+                        characterShare(getResources().getString(R.string.background_higgs), getResources().getString(R.string.name_higgs));
+                    case "Diehardman":
+                        characterShare(getResources().getString(R.string.background_diehardman), getResources().getString(R.string.name_diehardman));
+                    case "Amelie":
+                        characterShare(getResources().getString(R.string.background_amelie), getResources().getString(R.string.name_amelie));
+                    case "Cliff":
+                        characterShare(getResources().getString(R.string.background_cliff), getResources().getString(R.string.name_cliff));
+                    case "Lockne":
+                        characterShare(getResources().getString(R.string.background_lockne), getResources().getString(R.string.name_lockne));
+                    case "Hearthman":
+                        characterShare(getResources().getString(R.string.background_hearthman), getResources().getString(R.string.name_hearthman));
 
                 }
 
@@ -134,26 +156,37 @@ public class CharacterInfo extends AppCompatActivity {
     }
 
     public void setCharactedDetails(){
-        setFragile();
-        setSam();
+        characterInfoSet(getResources().getString(R.string.color_brown), getResources().getString(R.string.color_blue), getResources().getString(R.string.status_alive),getResources().getString(R.string.cast_norman),getResources().getString(R.string.background_sam1),getResources().getString(R.string.about_sam),getResources().getString(R.string.name_sam));
+        characterInfoSet(getResources().getString(R.string.color_blonde), getResources().getString(R.string.color_blue), getResources().getString(R.string.status_alive),getResources().getString(R.string.cast_fragile),getResources().getString(R.string.background_fragile),getResources().getString(R.string.about_fragile),getResources().getString(R.string.name_fragile));
+        characterInfoSet(getResources().getString(R.string.color_brown), getResources().getString(R.string.color_blue), getResources().getString(R.string.status_alive),getResources().getString(R.string.cast_deadman),getResources().getString(R.string.background_deadman),getResources().getString(R.string.about_deadman),getResources().getString(R.string.name_deadman));
+        characterInfoSet(getResources().getString(R.string.color_brown), getResources().getString(R.string.color_blue), getResources().getString(R.string.status_dead),getResources().getString(R.string.cast_mama),getResources().getString(R.string.background_mama),getResources().getString(R.string.about_mama),getResources().getString(R.string.name_mama));
+        characterInfoSet(getResources().getString(R.string.color_brown), getResources().getString(R.string.color_blue), getResources().getString(R.string.status_unknown),getResources().getString(R.string.cast_higgs),getResources().getString(R.string.background_higgs),getResources().getString(R.string.about_higgs),getResources().getString(R.string.name_higgs));
+        characterInfoSet(getResources().getString(R.string.color_black), getResources().getString(R.string.color_brown), getResources().getString(R.string.status_alive),getResources().getString(R.string.cast_diehardman),getResources().getString(R.string.background_diehardman),getResources().getString(R.string.about_diehardman),getResources().getString(R.string.name_diehardman));
+        characterInfoSet(getResources().getString(R.string.color_blonde), getResources().getString(R.string.color_blue), getResources().getString(R.string.status_unknown),getResources().getString(R.string.cast_amelie),getResources().getString(R.string.background_diehardman),getResources().getString(R.string.about_amelie),getResources().getString(R.string.name_amelie));
+        characterInfoSet(getResources().getString(R.string.color_brown), getResources().getString(R.string.color_brown), getResources().getString(R.string.status_dead),getResources().getString(R.string.cast_cliff),getResources().getString(R.string.background_cliff),getResources().getString(R.string.about_cliff),getResources().getString(R.string.name_cliff));
+        characterInfoSet(getResources().getString(R.string.color_brown), getResources().getString(R.string.color_brown), getResources().getString(R.string.status_dead),getResources().getString(R.string.cast_cliff),getResources().getString(R.string.background_cliff),getResources().getString(R.string.about_cliff),getResources().getString(R.string.name_cliff));
+        characterInfoSet(getResources().getString(R.string.color_brown), getResources().getString(R.string.color_hazel), getResources().getString(R.string.status_dead),getResources().getString(R.string.cast_mama),getResources().getString(R.string.background_lockne),getResources().getString(R.string.about_lockne),getResources().getString(R.string.name_lockne));
+        characterInfoSet(getResources().getString(R.string.color_brown), getResources().getString(R.string.color_brown), getResources().getString(R.string.status_alive),getResources().getString(R.string.cast_hearthman),getResources().getString(R.string.background_hearthman),getResources().getString(R.string.about_hearthman),getResources().getString(R.string.name_hearthman));
+
+
     }
 
-    public void setFragile(){
+    public void characterInfoSet(String hairclr, String eyeClr, String stts, String cst, String bg, String abt, String characterName){
         Bundle bundle = getIntent().getExtras();
-        String name = bundle.getString("name");
-        if(name.contains("Fragile")){
-            hairColor.setText(R.string.color_blonde);
-            eyeColor.setText(R.string.color_blue);
-            status.setText(R.string.status_alive);
-            cast.setText(R.string.cast_fragile);
-            background.setText(R.string.background_fragile);
-            about.setText(R.string.about_fragile);
+        String bundleName = bundle.getString("name");
+        if(bundleName.equals(characterName)){
+            hairColor.setText(hairclr);
+            eyeColor.setText(eyeClr);
+            status.setText(stts);
+            cast.setText(cst);
+            background.setText(bg);
+            about.setText(abt);
         }
     }
 
-    public void fragileShare(){
-        String background = (String) getText(R.string.about_fragile);
 
+
+    public void characterShare(String background, String header){
         Bundle bundle = getIntent().getExtras();
         String name = bundle.getString("name");
         Uri imageUri = Uri.parse("android.resource://" + getPackageName()
@@ -162,7 +195,7 @@ public class CharacterInfo extends AppCompatActivity {
         Intent togetherIntent = new Intent();
 
         togetherIntent.setAction(Intent.ACTION_SEND);
-        togetherIntent.putExtra(Intent.EXTRA_SUBJECT,name); // subject
+        togetherIntent.putExtra(Intent.EXTRA_SUBJECT,header); // subject
         togetherIntent.putExtra(Intent.EXTRA_STREAM,imageUri); // image
         togetherIntent.putExtra(Intent.EXTRA_TEXT, background); // body of the message
         togetherIntent.setType("image/jpeg");
@@ -170,19 +203,9 @@ public class CharacterInfo extends AppCompatActivity {
         startActivity(Intent.createChooser(togetherIntent, "send"));
     }
 
-    public void setSam(){
-        Bundle bundle = getIntent().getExtras();
-        String name = bundle.getString("name");
 
-        if(name.contains("Sam")){
-            hairColor.setText(R.string.color_brown);
-            eyeColor.setText(R.string.color_blue);
-            status.setText(R.string.status_alive);
-            cast.setText(R.string.cast_norman);
-            background.setText(R.string.background_sam1);
-            about.setText(R.string.about_sam);
-        }
-    }
+
+
 
 
 

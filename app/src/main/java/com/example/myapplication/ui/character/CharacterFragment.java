@@ -12,7 +12,6 @@ import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.myapplication.R;
-import com.example.myapplication.ui.character.CharacterAdapter;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -62,14 +61,14 @@ public class CharacterFragment extends Fragment{
 
         images.add(R.drawable.sam);
         images.add(R.drawable.fragile);
-        images.add(R.drawable.deadman_cropped);
+        images.add(R.drawable.deadman);
         images.add(R.drawable.mama);
         images.add(R.drawable.diehardman);
         images.add(R.drawable.higgs);
         images.add(R.drawable.amelie);
         images.add(R.drawable.cliff);
         images.add(R.drawable.lockne);
-        images.add(R.drawable.heartman);
+        images.add(R.drawable.hearthman);
     }
 
 

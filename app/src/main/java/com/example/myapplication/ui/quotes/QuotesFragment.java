@@ -55,7 +55,7 @@ public class QuotesFragment extends Fragment {
         list = new ArrayList<>();
         list.add(new QuoteItem(R.drawable.sam, "\"I was living a lie... I was broken. but somewhere along the way, I started changing\" ", "Sam"));
         list.add(new QuoteItem(R.drawable.fragile, "\"I am Fragile, but not that fragile\"", "Fragile"));
-        list.add(new QuoteItem(R.drawable.heartman, "\"My body may be oresent but my soul is on the beach. I'm already dead\"", "Heartman"));
+        list.add(new QuoteItem(R.drawable.hearthman, "\"My body may be oresent but my soul is on the beach. I'm already dead\"", "Heartman"));
         list.add(new QuoteItem(R.drawable.higgs, "\"But I wonder, when you look death in the eye, will you blink?\"", "Higgs"));
         list.add(new QuoteItem(R.drawable.amelie, "\"A strand is a part of a rope or bond, while stranded means being washed up on the shore, and being stranded is when you can't go home \"", "Amelie"));
         list.add(new QuoteItem(R.drawable.diehardman, "\"Back then, I thought I was invincible. I thought I was some kind of action hero\"", " Diehard-man"));
