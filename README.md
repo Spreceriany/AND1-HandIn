@@ -13,6 +13,7 @@ MoSCoW requirements:
 | Should have | Implemented |
 | --- | --- |
 | Sharing a particular information with an friend on social medias | :heavy_check_mark: |
+| Save information to read later | :x: |
 
 
 | Could have | Implemented |
