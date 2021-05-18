@@ -22,8 +22,8 @@ MoSCoW requirements:
 
 | Won't have | Not Implemented |
 | --- | --- |
-| Option to look for profiles of another users | :heavy_check_mark: |
-| Track progress of another users | :heavy_check_mark: |
+| Login | :heavy_check_mark: |
+| Registration | :heavy_check_mark: |
 
 
 
