@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.episodeDetals.EpisodeDetailsActivity"
+    android:background="@drawable/reading_bg"
+    android:padding="15dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/episode_image"
+                android:src="@drawable/hearthman"/>
+            <TextView
+                android:layout_marginTop="15sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="header"
+                android:layout_below="@+id/episode_image"
+                android:id="@+id/episode_detail_name"
+                android:textSize="30dp"
+                android:fontFamily="@font/sackers_gothic_heavy"
+                android:textColor="@color/white"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/episode_number"
+                android:layout_below="@id/episode_detail_name"
+                android:text="Episode"
+                android:textSize="20sp"
+                android:fontFamily="@font/sackers_gothic_light"/>
+
+            <TextView
+                android:layout_marginTop="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/objective"
+                android:textSize="15sp"
+                android:lineHeight="20dp"
+
+                android:fontFamily="@font/sackers_gothic_medium"
+                android:layout_below="@id/episode_number"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:lineHeight="20dp"
+
+                android:id="@+id/story"
+                android:fontFamily="@font/sackers_gothic_medium"
+                android:layout_below="@id/objective"
+                android:textColor="@color/white"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view"
+
+    >
+    <group android:checkableBehavior="single"
+        >
+
+        <item android:id="@+id/nav_world"
+            android:icon="@drawable/ic_world_icon"
+            android:title="@string/world"
+
+          >
+        </item>
+
+        <item android:id="@+id/nav_characters"
+            android:icon="@drawable/ic_character_icon"
+            android:title="@string/characters"/>
+        <item android:id="@+id/nav_tools"
+            android:icon="@drawable/ic_tools_icon"
+            android:title="@string/tools"/>
+        <item android:id="@+id/nav_episodes"
+            android:icon="@drawable/ic_episodes_icon"
+            android:title="@string/episodes"/>
+        <item android:id="@+id/nav_quotes"
+            android:icon="@drawable/ic_baseline_format_quote_24"
+            android:title="@string/quotes"/>
+
+
+
+    </group>
+
+
+</menu>
