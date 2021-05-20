@@ -25,6 +25,9 @@ MoSCoW requirements:
 | Login | :heavy_check_mark: |
 | Registration | :heavy_check_mark: |
 
+Video
+https://www.youtube.com/watch?v=d7wsVskAHsc&t=35s
+
 
 
 
